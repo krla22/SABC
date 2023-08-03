@@ -1,7 +1,7 @@
 <?php
     session_start();
     if(!isset($_SESSION['user'])){
-        header("location: index.php"); exit();
+        header("location: index.html"); exit();
     }
 ?>
 
@@ -24,12 +24,12 @@
     <header>
         <nav>
             <div class="logo">
-                <a href="in_index.php"> <img src="images/logo.png" alt="SkinABCs"> </a>
+                <a href="in_index.html"> <img src="images/logo.png" alt="SkinABCs"> </a>
             </div>
             <ul>
-                <li> <i class="fa-solid fa-splotch"> </i> &nbsp; <a href="in_products.php"> Products </a></li>
-                <li> <i class="bi bi-basket3-fill"></i> &nbsp; <a href="in_checkout.php"> Checkout </a></li>
-                <li> <i class="bi bi-person-square"></i> &nbsp; <a href="in_profile.php"> Profile </a> </li> 
+                <li> <i class="fa-solid fa-splotch"> </i> &nbsp; <a href="in_products.html"> Products </a></li>
+                <li> <i class="bi bi-basket3-fill"></i> &nbsp; <a href="in_checkout.html"> Checkout </a></li>
+                <li> <i class="bi bi-person-square"></i> &nbsp; <a href="in_profile.html"> Profile </a> </li> 
             </ul>
 
             <div class="mobile-menu-icon">
@@ -47,7 +47,7 @@
     </div>
 
     <div class="about-div">
-        <p class="about-wrapper"><img class="about-img" src="Images/about.jpg"></p>
+        <p class="about-wrapper"><img class="about-img" src="images/about.jpg"></p>
         <p class="about-text">
             Quality has always meant expensive in the skin care industry. <br><br><br>
             Customers buy products over ignorance-driven deceptive marketing strategies rather than having an informed decision. <br><br><br>
@@ -58,13 +58,13 @@
 
     <div class="product-showcase">
         <div class="product-transition">
-            <button class="prdct-btn" onclick="window.location.href = 'in_products.php#sensnia-loc';"><img class="product-1" src="images/niasensitive_update.jpg"></button>
+            <button class="prdct-btn" onclick="window.location.href = 'in_products.html#sensnia-loc';"><img class="product-1" src="images/niasensitive_update.jpg"></button>
         </div>
         <div class="product-transition"> 
-            <button class="prdct-btn" onclick="window.location.href = 'in_products.php#ub-loc';"><img class="product-2" src="images/ubserum.png"></button>
+            <button class="prdct-btn" onclick="window.location.href = 'in_products.html#ub-loc';"><img class="product-2" src="images/ubserum.png"></button>
         </div>
         <div class="product-transition">
-            <button class="prdct-btn" onclick="window.location.href = 'in_products.php#oa-loc';"><img class="product-3" src="images/oilyacneprone.jpg"></button>
+            <button class="prdct-btn" onclick="window.location.href = 'in_products.html#oa-loc';"><img class="product-3" src="images/oilyacneprone.jpg"></button>
         </div>
     </div>
 

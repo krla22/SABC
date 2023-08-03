@@ -1,12 +1,12 @@
 <?php
     session_start();
     if(!isset($_SESSION['user'])){
-        header("location: index.php"); exit();
+        header("location: index.html"); exit();
     }
 
     if(isset($_GET['logout'])){
         unset($_SESSION['user']);
-        header("location: index.php"); exit();
+        header("location: index.html"); exit();
     }
 
 ?>
@@ -234,11 +234,11 @@
     <header>
         <nav>
             <div class="logo">
-                <a href="in_index.php"> <img src="images/logo.png" alt="SkinABCs"> </a>
+                <a href="in_index.html"> <img src="images/logo.png" alt="SkinABCs"> </a>
             </div>
             <ul>
-                <li> <i class="fa-solid fa-splotch"> </i> &nbsp; <a href="in_products.php">Products</a></li>
-                <li> <i class="bi bi-basket3-fill"></i> &nbsp; <a href="in_checkout.php">Checkout</a></li>
+                <li> <i class="fa-solid fa-splotch"> </i> &nbsp; <a href="in_products.html">Products</a></li>
+                <li> <i class="bi bi-basket3-fill"></i> &nbsp; <a href="in_checkout.html">Checkout</a></li>
                 <li onclick="document.getElementById('id01').style.display='block'"> <i class="bi bi-person-square"></i> &nbsp; <a href="#"> Profile </a> </li> 
             </ul>
 

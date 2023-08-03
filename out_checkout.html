@@ -1,10 +1,3 @@
-<?php
-    session_start();
-    if(!isset($_SESSION['user'])){
-        header("location: index.php"); exit();
-    }
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -22,16 +15,15 @@
 </head>
 
 <body>
-    <form action="in_checkout_class.php" method="post">
         <header>
             <nav>
                 <div class="logo">
-                    <a href="in_index.php"> <img src="images/logo.png" alt="SkinABCs"> </a>
+                    <a href="index.html"> <img src="images/logo.png" alt="SkinABCs"> </a>
                 </div>
                 <ul>
-                    <li> <i class="fa-solid fa-splotch"> </i> &nbsp; <a href="in_products.php">Products</a></li>
+                    <li> <i class="fa-solid fa-splotch"> </i> &nbsp; <a href="out_products.html">Products</a></li>
                     <li> <i class="bi bi-basket3-fill"></i> &nbsp; <a href="#">Checkout</a></li>
-                    <li onclick="document.getElementById('id01').style.display='block'"> <i class="bi bi-person-square"></i> &nbsp; <a href="in_profile.php"> Profile </a> </li> 
+                    <li onclick="location.href = 'login.html';"><i class="bi bi-person-square"></i> &nbsp; <a href="#"> Sign In </a> </li> 
                 </ul>
 
                 <div class="mobile-menu-icon">
@@ -56,7 +48,7 @@
                             <p> ₱255 </p>
                             <div class="number-input">
                                 <button type="button" onclick="sensniaMinus();"> - </button>
-                                <input class="quantity" id="sensniaQuantity" min="0" name="sensniaQuantity" value="0" type="number">
+                                <input class="quantity" id="sensniaQuantity" min="0" name="quantity" value="0" type="number">
                                 <button type="button" onclick="sensniaPlus();"> + </button>
                             </div>
                         </div>
@@ -70,7 +62,7 @@
                             <p> ₱480 </p>
                             <div class="number-input">
                                 <button type="button" onclick="ubMinus()"> - </button>
-                                <input class="quantity" id="ubQuantity" min="0" name="ubQuantity" value="0" type="number">
+                                <input class="quantity" id="ubQuantity" min="0" name="quantity" value="0" type="number">
                                 <button type="button" onclick="ubPlus()" class="plus"> + </button>
                             </div>
                         </div>
@@ -84,22 +76,21 @@
                             <p> ₱290 </p>
                             <div class="number-input">
                                 <button type="button" onclick="oaproneMinus()"> - </button>
-                                <input class="quantity" id="oaproneQuantity" min="0" name="oaproneQuantity" value="0" type="number">
+                                <input class="quantity" id="oaproneQuantity" min="0" name="quantity" value="0" type="number">
                                 <button type="button" onclick="oapronePlus()" class="plus"> + </button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="right">
+            <div class="right">   
                 <div class="total">
-                    <h2> Number of Items: <p style="float: right; width: 100px;" id="items"></p></h2>
-                    <h2> Total Price:  <p style="float: right; width: 100px;" id="total"></p> </h2>
+                    
+                    <h2> Number of Items: <p style="float: right;" id="items"> 0 </p></h2>
+                    <h2> Total Price: <p style="float: right;" id="total"> P </p> </h2>
                     <hr>
-                    <p class="cod"> Only available for cash on delivery! <p>
-                    <hr>
-                    <button name="submit" type="submit"> Proceed to Checkout </button>
-                    <p class="success" style="color: green;"> <?php echo @$user->success ?> </p>
+                    <button onclick="validationPopup()"> Proceed to Checkout </button>
+                    <p class="cod"><i class="bi bi-cash"></i> Only available for cash on delivery! <p>
                 </div>
             </div>
         </div>
@@ -117,7 +108,7 @@
                 <p>Footer Space</p>
             </div>
         </footer>
-    </form>
+    
     <script src="scripts/checkout.js"></script>
     <script src="scripts/menu.js"></script>
     <script src="scripts/modal.js"></script>
