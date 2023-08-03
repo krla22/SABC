@@ -1,0 +1,166 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    width: 9.8vw;
+}
+
+body {
+    background-color: #f1f1f1;
+    color: #000;
+}
+
+header {
+    position: relative;
+    background-color: #fff;
+}
+
+nav {
+    width: 90%;
+    padding: 1.5rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    font-size: 1rem;
+    background-color: #ffffff;
+}
+
+.logobutton{
+    border: none;
+    outline: none;
+    text-decoration: none;
+    background: none;
+}
+
+.logobutton:hover {
+    cursor: pointer;
+}
+
+nav .logo {
+    width: 3rem;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    padding: 1rem;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #262626;
+    padding-bottom: 0.5rem;
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid #262626;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 6rem);
+    text-transform: uppercase;
+}
+
+.mobile-menu-icon {
+    display: none;
+    position: absolute;
+    top: 1.5rem;
+    right: 2rem;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.hamburger-menu {
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    transition: all 0.5s;
+}
+
+.hamburger-menu .line {
+    background-color: #000;
+    height: 3px;
+    width: 100%;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+nav.open ul {
+    transform: translateX(0);
+}
+
+nav.open .hamburger-menu {
+    transform: rotate(180deg);
+}
+
+nav.open .hamburger-menu .line:nth-of-type(1) {
+    -webkit-transform: rotateZ(45deg);
+    transform: rotateZ(45deg) translate(0.6rem, 0.1rem);
+}
+
+nav.open .hamburger-menu .line:nth-of-type(2) {
+    display: none;
+}
+
+nav.open .hamburger-menu .line:nth-of-type(3) {
+    -webkit-transform: rotateZ(-45deg);
+    transform: rotateZ(-45deg) translate(0.6rem, -0.1rem);
+}
+
+
+
+@media screen and (max-width: 681px) {
+    nav {
+        width: 100%;
+        background-color: #ffffff;
+    }
+    .mobile-menu-icon {
+        display: block;
+    }
+    header {
+        background-color: initial;
+    }
+    nav ul {
+        position: absolute;
+        top: 0;
+        left: 0;
+        flex-direction: column;
+        height: 100%;
+        align-items: center;
+        padding-top: 3rem;
+        background-color: #fff;
+        transform: translateX(-20rem);
+        transition: transform 0.5s ease-in-out;
+    }
+    nav ul li {
+        text-align: center;
+        padding: 2rem 2rem;
+        width: 100%;
+        background-color: #ffffff;
+    }
+    nav ul li:not(:last-child) {
+        border-bottom: 1px solid #ccc;
+    }
+}

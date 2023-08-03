@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin Sans');
+
+html {
+    font-family: 'Josefin Sans';
+}
+
+body {
+    background-color: rgb(32, 32, 32);
+}
+
+.sensnia-serum {
+    display: flex;
+    width: 90vw;
+    background-color: rgb(255, 255, 255);
+}
+
+.ub-serum{
+    display: flex;
+    width: 90vw;
+    background-color: rgb(255, 255, 255);
+}
+
+.oa-serum{
+    display: flex;
+    width: 90vw;    
+    margin-bottom: 0.5vw;
+    background-color: rgb(255, 255, 255);
+}
+
+.serum-img {
+    margin: 1vw;
+    width: 35vw;
+    display: flex;
+}
+
+.serum-wrapper {
+    text-align: left;
+}
+
+.divider {
+    font-size: 55vw;
+    display: absolute;
+    color: rgb(32, 32, 32);
+}
+
+.divider:hover {
+    cursor:default;
+}
+
+.sensnia-text, .ub-text, .oa-text {
+    margin: 3vw;
+    font-family: 'Josefin Sans';
+    color: rgb(39, 39, 29);
+}
+
+.sensnia-text h2, .ub-text h2, .oa-text h2 {
+    font-size: 1.45vw;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    color: black;
+}
+
+.sensnia-text h3, .ub-text h3, .oa-text h3 {
+    color: rgb(1, 74, 1);
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 1.5vw;
+}
+
+.sensnia-text h4, .ub-text h4, .oa-text h4 {
+    color: rgb(43, 0, 0);
+    font-size: 1.2vw;
+    text-align: left;
+    margin-left: 1vw;
+}
+
+.sensnia-text p, .ub-text p, .oa-text p {
+    font-size: 0.9vw;
+    margin: 1vw;
+    text-align: justify;
+}
+
+.sensnia-text button, .ub-text button, .oa-text button {
+    width: 7vw;
+    height: 2.5vw;
+    font-family: 'Josefin Sans';
+    font-size: 0.9vw;
+    border-color: rgb(144, 97, 10);
+
+    background: linear-gradient(to right, rgb(144, 97, 10) 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .4s ease-out;
+}
+
+.sensnia-text button:hover, .ub-text button:hover, .oa-text button:hover  {
+    color: whitesmoke;
+    border-color: rgb(86, 61, 61);
+    background-position: left bottom;
+    cursor: pointer;
+}
+
+h5 {
+    text-align: right;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20vw;
+}
+
+@media screen and (max-width: 681px) {
+    header {
+        margin-bottom: 5vw;
+    }
+}
+
+@media screen and (min-width: 1012px) {
+    header {
+        margin-bottom: 40vw;
+    }
+}
+
+@media screen and (max-width: 1013px) {
+    header {
+        margin-bottom: 50vw;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    header {
+        margin-bottom: 62vw;
+    }
+}
+
+@media screen and (min-width: 1351px) {
+    header {
+        margin-bottom: 65vw;
+    }
+}
+
+/* .skintype-div {
+    background: white;
+    font-family: 'Josefin Sans';
+    width: 70vw;
+    padding: 0 1rem;
+}
+
+.skintype-div table {
+    border-collapse: separate;
+    border-spacing: 1rem;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.skintype-div h2 {
+    margin: 2rem;
+}
+
+table, td{
+    border: 1px solid black;
+}
+
+.skintype-div table tr td {
+    border-collapse: separate;
+    border-spacing: 21rem;
+} */

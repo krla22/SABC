@@ -1,0 +1,20 @@
+[
+    {
+        "email": "jancyrus.villar@gmail.com",
+        "password": "$2y$10$K4cQ0ds2ccMPFWxu9rUhYOs\/d\/ASubgfR0TU3.cklj2og3zv.giZ.",
+        "first_name": "Jan Cyrus",
+        "last_name": "Villar"
+    },
+    {
+        "email": "chrisb@email.com",
+        "password": "$2y$10$oFN2fZK0OxvJW\/GskSQim.hTcMhmwoWqRYmAxRg7oPfNZkzvXvX2K",
+        "first_name": "Chris",
+        "last_name": "Bacon"
+    },
+    {
+        "email": "kurt@gmail.com",
+        "password": "$2y$10$FXPVY3dZIOW78TJ8rpK1FOliWOpJLNPP8k9DVzlsHiPTOx5rMy98q",
+        "first_name": "Kurt Robin",
+        "last_name": "Antonio"
+    }
+]

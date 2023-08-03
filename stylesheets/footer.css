@@ -1,0 +1,30 @@
+.whitespace-footer {
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(32, 32, 32);
+    text-align: center;
+}
+
+.whitespace-footer p {
+    color: rgb(32, 32, 32);
+    font-size: 1.5rem;
+}
+
+.whitespace-footer:hover {
+    cursor: none;
+}
+
+.footer-message {
+    width: 100%;
+    line-height: 2rem;
+    padding: 1.75rem;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+
+.footer-message a {
+    text-decoration: none;
+    margin: 3rem;
+}

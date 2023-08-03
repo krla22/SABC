@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin Sans');
+
+footer {
+    width: 100%;
+    text-transform: none;
+}
+
+.footer-message {
+    padding: 1.75rem;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    align-items: center;
+    line-height: 1rem;
+}
+
+.footer-message a{
+    text-decoration: none;
+    margin: 2vw;
+}
+
+.footer-message h3 {
+    padding-top: 1vw;
+}
+
+.hidden-footer {
+    color: white;
+    cursor: default;
+    font-size: 1vw;
+}
+
+.whitespace-footer p {
+    padding: 0.5rem;
+    color: #ff000000;
+}

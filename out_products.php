@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkinABCs: Holy Grail Products</title>
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="stylesheet" href="stylesheets/products_header.css">
+    <link rel="stylesheet" href="stylesheets/products_footer.css">
+    <link rel="stylesheet" href="stylesheets/products_slideshow.css">
+    <link rel="stylesheet" href="scripts/products_slideshow.js">
+    <link rel="stylesheet" href="stylesheets/products.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <button onclick="window.location.href = 'index.php';" class="logobutton"></a><img src="Images/logo.png" alt="SkinABCs"></button>
+            </div>
+            <ul>
+                <li><i class="fa-solid fa-splotch"></i>&nbsp; <a href="#">  Products</a></li>
+                <li><i class="bi bi-basket3-fill"></i>&nbsp; <a href="out_checkout.php">  Checkout</a></li>
+                <li onclick="location.href = 'login.php';"> <i class="bi bi-person-square"></i> &nbsp; <a href="#"> Sign In </a> </li> 
+            </ul>
+
+            <div class="mobile-menu-icon">
+                <div class="hamburger-menu">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- <div class="divider">
+            <p>Divider</p>
+            <p>Divider2</p>
+        </div> -->
+
+        <!-- <div class="skintype-div">
+            <h2>How to know which skin type you have?</h2>
+            <table>
+                <tr>
+                    <th>Sensitive Skin</th>
+                    <th>Oily-Acne Skin</th>
+                </tr>
+                <tr>
+                    <td>Skin feels itchy, dry, and reddish</td>
+                    <td>Skin is greasy, shiny, and bumpy</td>
+                </tr>
+                <tr>
+                    <td>Pores are normal to large and irritable</td>
+                    <td>Pores are large and easily clogged</td>
+                </tr>
+                <tr>
+                    <td>Irritation and dryness is felt after cleansing</td>
+                    <td>An oil-free skin is felt after cleansing</td>
+                </tr>
+                <tr>
+                    <td>Requires a moisturizer to care for</td>
+                    <td>A moisturizer will cause the skin to be more oily</td>
+                </tr>
+                <tr>
+                    <td>Trying new products might cause irritation</td>
+                    <td>Trying new products might cause breakouts</td>
+                </tr>
+            </table>
+        </div> -->
+
+        <div class="serums">
+            <div id="sensnia-loc" class="sensnia-serum">
+                <span class="serum-wrapper"><img class="serum-img" src="Images/sensnia-serum-1.jpg"></span>
+                <div class="sensnia-text">
+                    <h2>SkinABCs Niacinamide for Sensitive Skin</h2><br>
+                    <h3>₱255</h3>
+                    <h5><button onclick="location.href='out_checkout.php';"> Checkout Now </button></h5><br><br>
+                    <h4>About the product:</h4>
+                    <p>Skin Transformation, unlike how hard many brands have made it seem, can be as easy as ABC. 
+                        And so are the vitamins needed to do so.
+                        A (Retinol), B3 (Niacinamide), and C (L-Ascorbic Acid), 
+                        the three holy grails of skin car ingredient. <br><br>
+
+                        With our 30ml holy grail serum, it will continuously help clear congestion, balance 
+                        sebum production, minimize visibility of enlarged pores, even-out skin tone, fade marks left by 
+                        breakouts, hydrate skin, regulate texture and more!<br><br> With Vitamin B3 (Niacinamide), this is the safest,
+                        non-invasive, non-irritating, non-peeling, non-redness-causing ingredient to address signs of 
+                        ageing. It is well-tolerated by a wide-variety of skin types.
+                    </p>
+                    <h4>Ingredients of the Product:</h4>
+                    <p>
+                        Distilled Water, Niacinamide (Vitamin B3), Vegetable Glycerin Propane-1,2,3-Triol, Rosa Damascena Flower Water(Rose Water), Sodium Lactate, Zinc Oxide, Salicylic Acid (BHA), Citric Acid(AHA), Xanthan Gum, Propylene Glycol, Diazolidinyl Urea, Iodopropynyl Butylcarbamate
+                    </p>
+                </div>
+            </div>
+            <div class="sensnia-serum">
+                <span class="serum-wrapper"><img class="serum-img" src="Images/sensnia-serum-2.jpg"></span>
+                <div class="sensnia-text">
+                    <h2>SkinABCs Niacinamide for Sensitive Skin</h2><br>
+                    <h3>₱255</h3>
+                    <h5><button onclick="location.href='out_checkout.php';">Checkout Now</button></h5><br><br>
+                    <h4>About the product:</h4>
+                    <p>Skin Transformation, unlike how hard many brands have made it seem, can be as easy as ABC. 
+                        And so are the vitamins needed to do so.
+                        A (Retinol), B3 (Niacinamide), and C (L-Ascorbic Acid), 
+                        the three holy grails of skin car ingredient. <br><br>
+
+                        With our 30ml holy grail serum, it will continuously help clear congestion, balance 
+                        sebum production, minimize visibility of enlarged pores, even-out skin tone, fade marks left by 
+                        breakouts, hydrate skin, regulate texture and more!<br><br> With Vitamin B3 (Niacinamide), this is the safest,
+                        non-invasive, non-irritating, non-peeling, non-redness-causing ingredient to address signs of 
+                        ageing. It is well-tolerated by a wide-variety of skin types.
+                    </p>
+                    <h4>Ingredients of the Product:</h4>
+                    <p>
+                        Distilled Water, Niacinamide (Vitamin B3), Vegetable Glycerin Propane-1,2,3-Triol, Rosa Damascena Flower Water(Rose Water), Sodium Lactate, Zinc Oxide, Salicylic Acid (BHA), Citric Acid(AHA), Xanthan Gum, Propylene Glycol, Diazolidinyl Urea, Iodopropynyl Butylcarbamate
+                    </p>
+                </div>
+            </div>
+            <div class="sensnia-serum">
+                <span class="serum-wrapper"><img class="serum-img" src="Images/sensnia-serum-info.jpg"></span>
+                <div class="sensnia-text">
+                    <h2>SkinABCs Niacinamide for Sensitive Skin</h2><br>
+                    <h3>₱255</h3>
+                    <h5><button onclick="location.href='out_checkout.php';">Checkout Now</button></h5><br><br>
+                    <h4>About the product:</h4>
+                    <p>Skin Transformation, unlike how hard many brands have made it seem, can be as easy as ABC. 
+                        And so are the vitamins needed to do so.
+                        A (Retinol), B3 (Niacinamide), and C (L-Ascorbic Acid), 
+                        the three holy grails of skin car ingredient. <br><br>
+
+                        With our 30ml holy grail serum, it will continuously help clear congestion, balance 
+                        sebum production, minimize visibility of enlarged pores, even-out skin tone, fade marks left by 
+                        breakouts, hydrate skin, regulate texture and more!<br><br> With Vitamin B3 (Niacinamide), this is the safest,
+                        non-invasive, non-irritating, non-peeling, non-redness-causing ingredient to address signs of 
+                        ageing. It is well-tolerated by a wide-variety of skin types.
+                    </p>
+                    <h4>Ingredients of the Product:</h4>
+                    <p>
+                        Distilled Water, Niacinamide (Vitamin B3), Vegetable Glycerin Propane-1,2,3-Triol, Rosa Damascena Flower Water(Rose Water), Sodium Lactate, Zinc Oxide, Salicylic Acid (BHA), Citric Acid(AHA), Xanthan Gum, Propylene Glycol, Diazolidinyl Urea, Iodopropynyl Butylcarbamate
+                    </p>
+                </div>
+            </div>
+            <div class="dot-fixer">
+                <span class="sensia-dot" onclick="currentSlideSensnia(1)"></span>
+                <span class="sensia-dot" onclick="currentSlideSensnia(2)"></span>
+                <span class="sensia-dot" onclick="currentSlideSensnia(3)"></span>
+            </div>
+    
+            <div id="ub-loc" class="ub-serum">
+                <span class="serum-wrapper"><img class="serum-img" src="Images/ub-serum-1.jpg"></span>
+                <div class="ub-text">
+                    <h2>SkinABCs Ultimate Brightening Serum</h2><br>
+                    <h3>₱480</h3>
+                    <h5><button onclick="location.href='out_checkout.php';">Checkout Now</button></h5><br><br>
+                    <h4>About the product:</h4>
+                    <p>The Ultimate Brightening Plus (UBP) is the first premium product introduced by SkinABCs Premium++.<br><br> 
+                        Without the need to compromise for the cost, Ultimate Brightening Plus brought together the best 
+                        and safest brightening actives: Alpha Arbutin, Tranexamic Acid, Niacinamide, and Hyaluronic Acid.<br><br>
+                        The results are stunning! And the effects are way better than anything SkinABCs have made before 
+                        and most Niacinamide products in the market. Ultimate Brightening Plus targets even the most 
+                        stubborn skin discoloration and hyperpigmentation issues. It also fine lines, wrinkles, uneven 
+                        texture and many more signs of aging.
+                    </p><br>
+                    <h4>Ingredients of the Product:</h4>
+                    <p>
+                        Distilled Water, Niacinamide (Vitamin B3), Vegetable Glycerin Propane-1,2,3-Triol, Rosa Damascena Flower Water(Rose Water), Sodium Lactate, Zinc Oxide, Salicylic Acid (BHA), Citric Acid(AHA), Xanthan Gum, Propylene Glycol, Diazolidinyl Urea, Iodopropynyl Butylcarbamate
+                    </p>
+                </div>
+            </div>
+            <div class="ub-serum">
+                <span class="serum-wrapper"><img class="serum-img" src="Images/ub-serum-2.jpg"></span>
+                <div class="ub-text">
+                    <h2>SkinABCs Ultimate Brightening Serum</h2><br>
+                    <h3>₱480</h3>
+                    <h5><button onclick="location.href='out_checkout.php';">Checkout Now</button></h5><br><br>
+                    <h4>About the product:</h4>
+                    <p>The Ultimate Brightening Plus (UBP) is the first premium product introduced by SkinABCs Premium++.<br><br> 
+                        Without the need to compromise for the cost, Ultimate Brightening Plus brought together the best 
+                        and safest brightening actives: Alpha Arbutin, Tranexamic Acid, Niacinamide, and Hyaluronic Acid.<br><br>
+                        The results are stunning! And the effects are way better than anything SkinABCs have made before 
+                        and most Niacinamide products in the market. Ultimate Brightening Plus targets even the most 
+                        stubborn skin discoloration and hyperpigmentation issues. It also fine lines, wrinkles, uneven 
+                        texture and many more signs of aging.
+                    </p><br>
+                    <h4>Ingredients of the Product:</h4>
+                    <p>
+                        Distilled Water, Niacinamide (Vitamin B3), Vegetable Glycerin Propane-1,2,3-Triol, Rosa Damascena Flower Water(Rose Water), Sodium Lactate, Zinc Oxide, Salicylic Acid (BHA), Citric Acid(AHA), Xanthan Gum, Propylene Glycol, Diazolidinyl Urea, Iodopropynyl Butylcarbamate
+                    </p>
+                </div>
+            </div>
+            <div class="ub-serum">
+                <span class="serum-wrapper"><img class="serum-img" src="Images/ub-serum-info.jpg"></span>
+                <div class="ub-text">
+                    <h2>SkinABCs Ultimate Brightening Serum</h2><br>
+                    <h3>₱480</h3>
+                    <h5><button onclick="location.href='out_checkout.php';">Checkout Now</button></h5><br><br>
+                    <h4>About the product:</h4>
+                    <p>The Ultimate Brightening Plus (UBP) is the first premium product introduced by SkinABCs Premium++.<br><br> 
+                        Without the need to compromise for the cost, Ultimate Brightening Plus brought together the best 
+                        and safest brightening actives: Alpha Arbutin, Tranexamic Acid, Niacinamide, and Hyaluronic Acid.<br><br>
+                        The results are stunning! And the effects are way better than anything SkinABCs have made before 
+                        and most Niacinamide products in the market. Ultimate Brightening Plus targets even the most 
+                        stubborn skin discoloration and hyperpigmentation issues. It also fine lines, wrinkles, uneven 
+                        texture and many more signs of aging.
+                    </p><br>
+                    <h4>Ingredients of the Product:</h4>
+                    <p>
+                        Distilled Water, Niacinamide (Vitamin B3), Vegetable Glycerin Propane-1,2,3-Triol, Rosa Damascena Flower Water(Rose Water), Sodium Lactate, Zinc Oxide, Salicylic Acid (BHA), Citric Acid(AHA), Xanthan Gum, Propylene Glycol, Diazolidinyl Urea, Iodopropynyl Butylcarbamate
+                    </p>
+                </div>
+            </div>
+            <div class="dot-fixer">
+                <span class="ub-dot" onclick="currentSlideUB(1)"></span>
+                <span class="ub-dot" onclick="currentSlideUB(2)"></span>
+                <span class="ub-dot" onclick="currentSlideUB(3)"></span>
+            </div>
+    
+            <div id="oa-loc" class="oa-serum">
+                <span class="serum-wrapper"><img class="serum-img" src="Images/oaprone-serum-1.jpg"></span>
+                <div class="oa-text">
+                    <h2>SkinABCs Niacinamide for Oily-Acne Skin</h2><br>
+                    <h3>₱290</h3>
+                    <h5><button onclick="location.href='out_checkout.php';">Checkout Now</button></h5><br><br>
+                    <h4>About the product:</h4>
+                    <p>While most Niacinamide serums only target acne marks and dark spots, many users who have oily and 
+                        acne-prone skin complain about the non-ending breakout cycle they experience which leads to more 
+                        blemishes. SkinABCs listens and find ways for everyone.<br><br>SkinABCs Anti-Acne Niacinamide Serum is 
+                        specifically formulated to help stop acne cycles by targeting many of the root causes of breakouts,
+                        all while also brightening skin complexion, minimize the appearance of enlarged pores, and 
+                        improving skin texture including fine lines and wrinkles.
+                    </p><br>
+                    <h4>Ingredients of the Product:</h4>
+                    <p>
+                        Distilled Water, Niacinamide (Vitamin B3), Vegetable Glycerin Propane-1,2,3-Triol, Rosa Damascena Flower Water(Rose Water), Sodium Lactate, Zinc Oxide, Salicylic Acid (BHA), Citric Acid(AHA), Xanthan Gum, Propylene Glycol, Diazolidinyl Urea, Iodopropynyl Butylcarbamate
+                    </p>
+                </div>
+            </div>
+            <div class="oa-serum">
+                <span class="serum-wrapper"><img class="serum-img" src="Images/oaprone-serum-2.jpg"></span>
+                <div class="oa-text">
+                    <h2>SkinABCs Niacinamide for Oily-Acne Skin</h2><br>
+                    <h3>₱290</h3>
+                    <h5><button onclick="location.href='out_checkout.php';">Checkout Now</button></h5><br><br>
+                    <h4>About the product:</h4>
+                    <p>While most Niacinamide serums only target acne marks and dark spots, many users who have oily and 
+                        acne-prone skin complain about the non-ending breakout cycle they experience which leads to more 
+                        blemishes. SkinABCs listens and find ways for everyone.<br><br>SkinABCs Anti-Acne Niacinamide Serum is 
+                        specifically formulated to help stop acne cycles by targeting many of the root causes of breakouts,
+                        all while also brightening skin complexion, minimize the appearance of enlarged pores, and 
+                        improving skin texture including fine lines and wrinkles.
+                    </p><br>
+                    <h4>Ingredients of the Product:</h4>
+                    <p>
+                        Distilled Water, Niacinamide (Vitamin B3), Vegetable Glycerin Propane-1,2,3-Triol, Rosa Damascena Flower Water(Rose Water), Sodium Lactate, Zinc Oxide, Salicylic Acid (BHA), Citric Acid(AHA), Xanthan Gum, Propylene Glycol, Diazolidinyl Urea, Iodopropynyl Butylcarbamate
+                    </p>
+                </div>
+            </div>
+            <div class="oa-serum">
+                <span class="serum-wrapper"><img class="serum-img" src="Images/oaprone--serum-info.jpg"></span>
+                <div class="oa-text">
+                    <h2>SkinABCs Niacinamide for Oily-Acne Skin</h2><br>
+                    <h3>₱290</h3>
+                    <h5><button onclick="location.href='out_checkout.php';">Checkout Now</button></h5><br><br>
+                    <h4>About the product:</h4>
+                    <p>While most Niacinamide serums only target acne marks and dark spots, many users who have oily and 
+                        acne-prone skin complain about the non-ending breakout cycle they experience which leads to more 
+                        blemishes. SkinABCs listens and find ways for everyone.<br><br>SkinABCs Anti-Acne Niacinamide Serum is 
+                        specifically formulated to help stop acne cycles by targeting many of the root causes of breakouts,
+                        all while also brightening skin complexion, minimize the appearance of enlarged pores, and 
+                        improving skin texture including fine lines and wrinkles.
+                    </p><br>
+                    <h4>Ingredients of the Product:</h4>
+                    <p>
+                        Distilled Water, Niacinamide (Vitamin B3), Vegetable Glycerin Propane-1,2,3-Triol, Rosa Damascena Flower Water(Rose Water), Sodium Lactate, Zinc Oxide, Salicylic Acid (BHA), Citric Acid(AHA), Xanthan Gum, Propylene Glycol, Diazolidinyl Urea, Iodopropynyl Butylcarbamate
+                    </p>
+                </div>
+            </div>
+            <div class="dot-fixer">
+                <span class="oa-dot" onclick="currentSlideOA(1)"></span>
+                <span class="oa-dot" onclick="currentSlideOA(2)"></span>
+                <span class="oa-dot" onclick="currentSlideOA(3)"></span>
+            </div>
+        </div>
+    <footer>    
+        <div class="footer-message">
+            <h3>SkinABCs</h3> <br>
+            <p>The NIACINAMIDE Authority of the Philippines</p> <br>
+            <a href="https://www.facebook.com/SkinABCsOfficial/" target="_blank"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/skinabcsph/?hl=en" target="_blank"><i class="bi bi-instagram"></i></a>
+            <a href="https://shopee.ph/skinabcs" target="_blank"><i class="bi bi-bag-fill"></i></a>
+        </div>
+
+        <div class="whitespace-footer">
+            <p>Footer Space</p>
+        </div>
+    </footer>
+    </main>
+
+    <script src="scripts/menu.js"></script>
+    <script src="scripts/modal.js"></script>
+    <script src="scripts/products_slideshow.js"></script>
+</body>
+</html>
